@@ -1,0 +1,7 @@
+format:
+  html:
+    number-depth: 3
+    theme: cosmo
+    html-math-method:
+      method: mathjax
+

@@ -1,0 +1,19 @@
+project:
+  type: book
+
+book:
+  title: "Cybersecurity"
+author:
+  - Афоненко Анатолий
+  - Лайша Богдан
+date: today
+
+profile:
+  group:
+    - [full,student]
+    - [dev,prod]
+    - [html,pdf]
+
+lang: ru
+bibliography: references.bib
+engine: knitr
