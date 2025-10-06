@@ -4,28 +4,6 @@ project:
 book:
   chapters:
     - index.qmd
-
-    - part: Семинарские занятия
-      chapters:
-        - seminar/1.qmd
-        - seminar/2.qmd
-        - seminar/3.qmd
-        - seminar/4.qmd
-        - seminar/5.qmd
-        - seminar/6.qmd
-        - seminar/7.qmd
-        - seminar/8.qmd
-    - part: Контрольные работы
-
-      chapters:
-        - test/handout/1.qmd
-        - test/handout/2.qmd
-        - test/handout/3.qmd
-        - test/handout/4.qmd
-        - test/handout/5.qmd
-        - test/handout/6.qmd
-        - test/handout/7.qmd
-
     - part: Домашняя работа. Криптография
       chapters:
         - lab/crypto/rng/main.qmd
@@ -61,8 +39,5 @@ book:
       chapters:
         - lab/ddos/main.qmd
         - lab/social-engineering/main.qmd
-
-    - references.qmd
-
   appendices:
     - lab/crypto/cypher/asymmetric/factorization.qmd
