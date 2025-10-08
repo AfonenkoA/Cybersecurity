@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Cybersecurity"
+  title: "Основы кибербезопасности"
 author:
   - Афоненко Анатолий
   - Лайша Богдан
@@ -12,7 +12,7 @@ profile:
   group:
     - [full,student]
     - [dev,prod]
-    - [html,pdf]
+    - [html,pdf-book,pdf-artcl]
 
 lang: ru
 bibliography: references.bib

@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: _student-book
+  output-dir: _full-book
 book:
   chapters:
     - index.qmd
@@ -15,6 +15,15 @@ book:
         - seminar/6.qmd
         - seminar/7.qmd
         - seminar/8.qmd
+
+    - part: Элементы теории
+      chapters:
+        - theory/crypto/random.qmd
+        - theory/crypto/hash.qmd
+        - theory/crypto/key-gen.qmd
+        - theory/crypto/cypher.qmd
+
+
     - part: Контрольные работы
 
       chapters:
@@ -26,9 +35,9 @@ book:
         - test/handout/6.qmd
         - test/handout/7.qmd
 
-    - part: Домашняя работа. Криптография
+    - part: Домашняя работа
       chapters:
-        - lab/crypto/rng/main.qmd
+        - lab/crypto/random/main.qmd
         - lab/crypto/hash/main.qmd
         - lab/crypto/key-gen/main.qmd
         - lab/crypto/cypher/symmetric/main.qmd
@@ -37,8 +46,6 @@ book:
         - lab/crypto/key-exchange/main.qmd
         - lab/crypto/cert/main.qmd
 
-    - part: Домашняя работа. Управление доступом
-      chapters:
         - lab/access-control/ident/main.qmd
         - lab/access-control/authn/main.qmd
         - lab/access-control/authn/password-protection.qmd
@@ -46,19 +53,13 @@ book:
         - lab/access-control/authz/windows/acl.qmd
         - lab/access-control/authz/windows/mic.qmd
 
-    - part: Домашняя работа. Целостность данных
-      chapters:
         - lab/data-integrity/checksum/detection.qmd
         - lab/data-integrity/checksum/correction.qmd
         - lab/data-integrity/backup/main.qmd
 
-    - part: Домашняя работа. Аудит
-      chapters:
         - lab/audit/code/main.qmd
         - lab/audit/event/main.qmd
 
-    - part: Домашняя работа. Современные угрозы
-      chapters:
         - lab/ddos/main.qmd
         - lab/social-engineering/main.qmd
 

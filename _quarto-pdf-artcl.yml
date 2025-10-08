@@ -2,8 +2,7 @@ format:
   pdf:
     latex-auto-install: false
     use-rsvg-convert: true
-    documentclass: scrbook
-    classoption: [twoside=false]
+    documentclass: scrartcl
     papersize: a4
     colorlinks: true
     fig-width: 5
@@ -11,7 +10,9 @@ format:
     mainfont: Times New Roman
     sansfont: Times New Roman
     monofont: Noto Sans Mono Black
-    top-level-division: chapter
+    top-level-division: section
+    toc-depth: 2
+    number-depth: 2
     include-in-header:
       - text: |
          \usepackage{fontspec}
